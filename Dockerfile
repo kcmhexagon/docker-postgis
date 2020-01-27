@@ -2,7 +2,8 @@
 
 ARG IMAGE_VERSION=buster
 FROM debian:$IMAGE_VERSION
-MAINTAINER Tim Sutton<tim@kartoza.com>
+#MAINTAINER Tim Sutton<tim@kartoza.com>
+MAINTAINER Chris Mecum<christopher.mecum@hexagon.com>
 
 # Reset ARG for version
 ARG IMAGE_VERSION
